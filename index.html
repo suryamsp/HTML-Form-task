@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .red{
+            color:red;
+        }
+    div{
+        padding-left: 20px;
+    }
+     .bo{
+      font-weight:bold;
+     }
+
+    .tablemake thead tr {
+      font-family: TimesNewRoman; font-size: 15px; font-style: normal;
+  width: 100%;
+}
+
+.tablemake td, .tablemake th {
+  padding: 8px;
+}
+
+.tablemake tr:nth-child(even){background-color: #dfdbdb;}
+
+.tablemake tr:hover {background-color: #ddd;}
+
+.tablemake th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: rgb(17, 16, 16);
+}
+.tablemake td{
+  text-align: center;
+}
+.tablemake1 tr {
+  font-family: TimesNewRoman; font-size: 15px; font-style: normal;
+  width: 100%;
+}
+
+.tablemake1 td, .tablemake1 th {
+  padding: 8px;
+}
+
+.tablemake1 tr:nth-child(even){background-color: #dfdbdb;}
+
+.tablemake1 tr:hover {background-color: #ddd;}
+
+.tablemake1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: rgb(17, 16, 16);
+}
+.tablemake1 td{
+  text-align: center;
+
+}
+.checked {
+  color: orange;
+  image-resolution: 18px;
+}
+.form-control{
+  text-size-adjust: 80%;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <lable class="bo">Name</lable><lable class="red">*</lable><br>
+        <input type="text" required>
+        <input type="text" required><br>
+          <lable class="first"><pre>First                     Last</pre></lable>
+        <lable class="bo">Email</lable><lable class="red">*</lable><br>
+        <input type="email" required><br><br>
+        <lable class="bo">Your Experience</lable><lable class="red">*</lable><br><br>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <p>Overall, how wound you rate you experience with us?</p>
+        <h3>How satisfied are you with<lable class="red">*</lable></h3>
+        
+    
+        <table class="tablemake">
+          <tbody>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Very Unsatisfied</th>
+                <th scope="col">Unsatisfied</th>
+                <th scope="col">Neutral</th>
+                <th scope="col">satisfied</th>
+                <th scope="col">Very satisfied</th>
+              </tr>
+              <tr>
+                <th scope="row">Purchase</th>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio"></td>
+                            
+              </tr>
+              <tr>
+                <th scope="row">Service</th>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                </tr>
+                <tr>
+                <th scope="row">Company Overall</th>
+                <td><input type="radio" ></td>
+                <td><input type="radio"></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+              
+              </tr>
+            </tbody>
+          </table>
+        <h3>How likely are you to<lable class="red">*</lable></h3>
+        <table class="tablemake1">
+     
+              <tr>
+                <th scope="col"</th>
+                <th scope="col">Very Unlikely</th>
+                <th scope="col">Unlikely</th>
+                <th scope="col">Neutral</th>
+                <th scope="col">likely</th>
+                <th scope="col">Very likely</th>
+              </tr>
+          
+              <tr>
+                <th scope="row">Buy from us again</th>
+                <td><input type="radio" ></td>
+                  <td><input type="radio"></td>
+                  <td><input type="radio" ></td>
+                  <td><input type="radio" ></td>
+                  <td><input type="radio" ></td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Recommend our product to others</th>
+                <td><input type="radio" ></td>
+                <td><input type="radio"></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+              
+                 
+              </tr>
+              <tr>
+                <th scope="row">Recommend our company to others</th>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+                <td><input type="radio" ></td>
+              </tr>
+            </tbody>
+          </table>
+        
+       
+<h3> Additional comments or suggestions</h3>
+<textarea class="form-control" column="4" cols="82"rows="4"></textarea><br><br>
+<button type="button" class="btn btn-light">Submit</button>
+
+
+</div>   
+
+
+    </div>
+</body>
+</html>
